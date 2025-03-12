@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.top-bg {
+    background-color: #003747;
+    height: 100vh;
+}
+
+.top-bg .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.top-bg .navbar .navbarmenu ul {
+    display: flex;
+    gap: 50px;
+}
+
+.top-bg .navbar .navbarmenu ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.6s;
+}
+.top-bg .navbar .navbarmenu ul li:hover
+ {
+    color:rgb(21, 248, 21) ;
+    transform: scale(1.2);
+    transform: 0.6s;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.top-bg .top-heading
+{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 100px;
+}
+.top-bg .navbar h3 {
+    font-size: 33px;
+}
+.top-bg .top-heading .top-image img
+{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid rgb(230, 193, 31);
+}
+.top-bg .top-heading .top-heading-content h1
+{
+color: white;
+font-size: 38;
+}
+.top-bg .top-heading .top-heading-content h1 span
+{
+  color: orange;
+}
+.top-bg .top-heading .top-heading-content p
+{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.top-bg .top-heading .top-heading-content p span
+{
+color: #29da23;
+}
+.top-bg .top-heading .top-heading-content button
+{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 5%;
+    transition: 0.6s;
+}
+.top-bg .top-heading .top-heading-content button:hover
+{
+    background-color: rgb(245, 166, 18);
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 5%;
+    transition: 0.6s;
+    transform: scale(1.1) ;
+    cursor: pointer;
+}
+.about-me-sec img
+{
+    width: 240px;
+}
+.about-me-sec
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 5%;
+}
+.about-me-sec img
+{
+    border: 8px solid  #003747;
+}
+.about-me-sec h3
+{
+    color:  #003747;
+    font-size: 33px;
+     padding-bottom: 2%;
+     font-weight: 700;
+}
+.about-me-sec p
+{
+    font-weight: 500;
+    text-align: justify;
+}
+.about-me-sec p span
+{
+    color: red;
+    font-weight: 800;
+}
+.about-me-sec button
+{
+    background-color:#003747 ;
+    color: white;
+    font-size: 13px;
+    border: none;
+    padding: 10px;
+    width: 170px;
+    border-radius: 5px;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about-me-sec button:hover
+{
+    background-color:#003747 ;
+    color: white;
+    font-size: 13px;
+    border: none;
+    padding: 10px;
+    width: 170px;
+    border-radius: 5px;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.6s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.expert-sec
+{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.expert-sec img
+{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    padding-bottom: 4%;
+}
+.expert-sec img:hover
+{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    padding-bottom: 4%;
+    transition: 0.6s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.im-expert
+{
+    background-color:#003747 ;
+    text-align: center;
+    color: white;
+padding: 4rem 0 4rem;
+}
+.im-expert h3
+{
+font-size: 30px;
+padding-bottom: 3%;
+}
+.im-expert h3 span{
+    color: orange ;
+}
+.contact-sec
+{
+    background-image: url(background.png);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.contact-sec p span
+{
+    color: orange;
+    font-weight: 600;
+}
+.contact-sec p
+{
+    font-size: 18px;
+}
+.contact-sec .social-media
+{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.copyright 
+{
+    background-color: #003747;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
